@@ -1,13 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header class="flex justify-around h-32 items-center">
+      <div class="flex items-center gap-2">
+        <img src="/Standard Collection 27.png" alt="" />
+        <h1 class="text-2xl font-semibold">
+          Lasles<span class="font-bold">VPN</span>
+        </h1>
+      </div>
+      <ul class="flex gap-7">
+        <li>About</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Testimonials</li>
+        <li>Help</li>
+      </ul>
+
+      <div class="font-semibold flex items-center gap-7">
+        <a href="">Sign In</a>
+        <a
+          href=""
+          class="border-1 border-red-600 text-red-600 px-7 py-2 rounded-3xl text-sm"
+          >Sign Up</a
+        >
+      </div>
+    </header>
+
+    <section class="flex justify-center gap-5">
+      <div class="flex flex-col gap-8 justify-center items-start">
+        <h1 class="text-6xl/tight font-semibold line">
+          Want anything to be <br />
+          easy with <span class="font-bold">LaslesVPN.</span>
+        </h1>
+        <p class="text-gray-700">
+          Provide a network for all your needs with ease and fun using
+          <span class="font-semibold">LaslesVPN</span><br />
+          discover interesting features from us.
+        </p>
+        <button
+          class="bg-red-600 text-gray-200 font-bold px-18 py-4 rounded-lg shadow-2xl mt-5"
+        >
+          Get Started
+        </button>
+      </div>
+      <img src="/Illustration 1.png" alt="" />
+    </section>
+
+    <section class="flex justify-center mt-28">
+      <div class=" flex justify-around items-center gap-10 shadow-xl p-10">
+        <div class="flex items-center gap-5 py-5 px-20">
+          <div class="statistic-left">
+            <img class="w-4" src="public/heroicons_sm-user.png" alt="" />
+          </div>
+          <div>
+            <h1 class="text-lg font-bold">90+</h1>
+            <p class="text-gray-700">Users</p>
+          </div>
+        </div>
+        <div class="statistic-div">
+          <div class="statistic-left">
+            <img class="w-4" src="public/gridicons_location.png" alt="" />
+          </div>
+          <div>
+            <h1 class="text-lg font-bold">30+</h1>
+            <p class="text-gray-700">Locations</p>
+          </div>
+        </div>
+        <div class="statistic-div">
+          <div class="statistic-left">
+            <img class="w-4" src="public/bx_bxs-server.png" alt="" />
+          </div>
+          <div>
+            <h1 class="text-lg font-bold">50+</h1>
+            <p class="text-gray-700">Servers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h1>HELLO WORLD!!!</h1>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
