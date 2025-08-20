@@ -1,14 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/landing-page-clone/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <script type="module" crossorigin src="/landing-page-clone/assets/index-BYVmN355.js"></script>
-    <link rel="stylesheet" crossorigin href="/landing-page-clone/assets/index-Vx1Qv3lv.css">
+    <script type="module" crossorigin src="/landing-page-clone/assets/index-C5kO5KTV.js"></script>
+    <link rel="stylesheet" crossorigin href="/landing-page-clone/assets/index-BuxMKDZI.css">
   </head>
   <body>
+    <header class="flex justify-around h-32 items-center">
+      <div class="flex items-center gap-2">
+        <img src="/landing-page-clone/Standard Collection 27.png" alt="" />
+        <h1 class="text-2xl font-semibold">
+          Lasles<span class="font-bold">VPN</span>
+        </h1>
+      </div>
+      <ul class="flex gap-7">
+        <li>About</li>
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Testimonials</li>
+        <li>Help</li>
+      </ul>
+
+      <div class="font-semibold flex items-center gap-7">
+        <a href="">Sign In</a>
+        <a
+          href=""
+          class="border-1 border-red-600 text-red-600 px-7 py-2 rounded-3xl text-sm"
+          >Sign Up</a
+        >
+      </div>
+    </header>
+
+    <section class="flex justify-center gap-5">
+      <div class="flex flex-col gap-8 justify-center items-start">
+        <h1 class="text-6xl/tight font-semibold line">
+          Want anything to be <br />
+          easy with <span class="font-bold">LaslesVPN.</span>
+        </h1>
+        <p class="text-gray-700">
+          Provide a network for all your needs with ease and fun using
+          <span class="font-semibold">LaslesVPN</span><br />
+          discover interesting features from us.
+        </p>
+        <button
+          class="bg-red-600 text-gray-200 font-bold px-18 py-4 rounded-lg shadow-2xl mt-5"
+        >
+          Get Started
+        </button>
+      </div>
+      <img src="/landing-page-clone/Illustration 1.png" alt="" />
+    </section>
+
+    <section class="flex justify-center mt-28">
+      <div class=" flex justify-around items-center gap-10 shadow-xl p-10">
+        <div class="flex items-center gap-5 py-5 px-20">
+          <div class="statistic-left">
+            <img class="w-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFhSURBVHgB7ZXfTcMwEMbPiUAOlCpsEDboW5O3jFA2KBPQTFB1grIBZQLKBuGpafvSDegGjYBABHKO81vJH2y3EkKovxdLd+d8vvizDXDgr8F0C198P7QQr4GxDgKsQYiotVyudOZqiTwHQc9GvC/HBWOX7dlsqppvgQYkMDaJG4tswtClwWtIe+++78G+IiqcJFmrapQi53Gc0kbfNaQnoIFWJ5+cD8hVD9sxEn484TzSma9tYYm0MX3cs4RY6dr319DuRLrsKMs8tG2XCZGadKIUkb+IioaA2GGMud+SiFMsipFK8EeRtyAYI+IAFFDNTWs+j4xFMt+/paEP+kxOk+SqLlFrYTrFQ0MBSf+1263tutLJhq6JY4An2AXE9MNxLuQB3g5XOrHpKoddIWPYed4rhysijFYD+1AUqVLkLEliGkZgCi2OXBa1F4vK+9LoLqTDl+e5C5pwzlNW2ov/xxekmn+ej1MT4QAAAABJRU5ErkJggg==" alt="" />
+          </div>
+          <div>
+            <h1 class="text-lg font-bold">90+</h1>
+            <p class="text-gray-700">Users</p>
+          </div>
+        </div>
+        <div class="statistic-div">
+          <div class="statistic-left">
+            <img class="w-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG4SURBVHgB5VRdUsIwEM5SlNafGbyB3oAXhgwvtCfQI8gN9ATACYQTgCdgPAF9zAwveAK5gYwDWhAad8eOljQNgTfHbwbaZHe/L/2yCWN/HWCT9Or75WIUVWIpKzQuAEzOhQhtancKLDhvSSnvAKCshKb4G5wK0TlIgFZ9vFyOWLLqfAaYrEql4CIMZ7pwIa/uKIq6O8kJmIO5w7yw9gveOL91GOsrRDMJ8JSsqiEZu0yHY8YC3b4UdQIOwA0S/q4CbfBcN4DEhg/OL1FsuPWFuE/4H6pceoviuLE1XK+bkPLYE2KKHXWvEDV0VHoBpWPOxuOJmpKxI9tlBgH0Oz2cV6uZzZ7X6xVTjVGAPN+acJyHTM5m00qPY4BnDZV+k9cAPUdK/4eMMR8P3At2yiMdOJDymildhDkDHVfuQXvnfIR95DMLIMn0RIgrXaxgKGoyS2BukBfLFaBWxIfxniGgbZ0kdz8Bwsp1u/B9qWlBMWzXtoHCLEAX2MZglckaKwECHSi8FnrqPM2ZrLEWIHyWSu20VfSObdy1qbUSUK3atbEHY1GrDfHA9fepKe6TvPK8phtFZfav8AVno6ODJL+JZQAAAABJRU5ErkJggg==" alt="" />
+          </div>
+          <div>
+            <h1 class="text-lg font-bold">30+</h1>
+            <p class="text-gray-700">Locations</p>
+          </div>
+        </div>
+        <div class="statistic-div">
+          <div class="statistic-left">
+            <img class="w-4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC8SURBVHgB7dPBCcIwFAbg/z2KJwXdoCN4KeQYJ3AEu4kzuIHdwBF6zBa6QQWvtjE9pJQYRNMgKPkufX8DeQnkAckHaByaolgzs2SiJSa4A8eVUpenJo0Q+Qw4I5IO2CyUqvua7c8MKBGXtAUjhNZXDVT915sdQU06osNcqVIzV77syhDAnGx3EwKk9daXozQxcrPx/kV2DzWoERG17WmoxwvmyhKjVzFBbZ/v16SJf4e0RZr4NPE/PvH/4wFTk2/FuWfrAQAAAABJRU5ErkJggg==" alt="" />
+          </div>
+          <div>
+            <h1 class="text-lg font-bold">50+</h1>
+            <p class="text-gray-700">Servers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <h1>HELLO WORLD!!!</h1>
   </body>
 </html>
