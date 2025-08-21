@@ -8,3 +8,12 @@
 .statistic-left{
   @apply w-10 h-10 rounded-full flex items-center justify-center bg-red-50
 }
+
+.plan{
+  @apply flex flex-col gap-10 py-16 px-20 items-center justify-between border-2 border-gray-200 rounded-lg
+}
+
+.plan-top{
+  @apply flex flex-col items-center gap-8
+}
+
